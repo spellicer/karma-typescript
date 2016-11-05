@@ -1,7 +1,7 @@
 {
     "compileOnSave": false,
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "amd",
         "target": "ES5"
     },
     "files": [
@@ -12,9 +12,6 @@
         "src/hello.component.ts",
 
         "src/language-features.component.ts",
-        "src/language-features.component.spec.ts",
-
-        "src/style-imports.component.ts",
-        "src/style-imports.component.spec.ts"
+        "src/language-features.component.spec.ts"
     ]
 }

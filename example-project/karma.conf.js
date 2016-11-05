@@ -4,7 +4,9 @@ module.exports = function(config) {
         frameworks: ["jasmine", "karma-typescript"],
 
         files: [
-            { pattern: "src/**/*.ts" }
+            "node_modules/requirejs/require.js",
+            "main-test.js",
+            { pattern: "src/**/*.ts", included: false }
         ],
 
         preprocessors: {
